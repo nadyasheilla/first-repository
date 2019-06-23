@@ -1,0 +1,32 @@
+body{ 
+	background-color: pink;
+	}
+	h1 {
+	background-color : yellow;
+	color : blue;
+	border : 3px solid black;
+	}
+	h2{
+	background-color : purple;
+	color : red;
+	border : 3px solid black;
+	}
+	p{
+	color: red;
+	}
+	
+	.merah {
+		color : red;
+	}
+	
+	.hijau {
+		color : green;
+	}
+	
+	#merah {
+		color : red
+	}
+	
+	#hijau {
+		color : green;
+	}

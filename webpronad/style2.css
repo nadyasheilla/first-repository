@@ -1,0 +1,111 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   /*Set Image Background*/
+   background-image: url('sample-pattern.png');
+
+header {
+   background-color: #FFFFFF;
+   width: 100%;
+   position: fixed;
+   height: 50px;
+   background-image: url('../sample-logo.png');
+}
+
+#logo {
+   float: left; /* Set Value here */
+	/* Set Padding Top */
+	padding-top:6px;
+   /* Set Margin Left */
+   margin-left: 15px;
+   /* Set Margin Top */
+   margin-top: 10px;
+   /* Set Padding Bottom */
+   padding-bottom: 5px;
+}
+
+nav {
+   float: right;/* Set Value here */
+   /* Set Align Text */
+   text-align: right;
+   /* Set Padding Right */
+   padding-right: 40px;
+   /* Set Margin Top */
+   margin-top: 15px;
+}
+
+li {
+   display: inline-block;
+   /* Set Margin Right */
+   margin-right: 10px;
+   /* Set Margin Bottom */
+   margin-bottom: 10px;
+   /* Set Color */
+   color: blue;
+}
+
+
+a {
+   text-decoration: none;
+}
+
+li a {
+   display: block;
+   padding: 10px 15px;
+}
+
+li a:hover {
+   background-color: blue;
+   color: #FFFFFF;
+}
+
+h1 {
+   padding-top: 100px;
+   color: rgb(95, 93, 93);
+   /* Set Align Text */
+   text-align: center;
+   /* Set Margin Bottom */
+   margin-bottom: 50px;
+   /* Set Font Size */
+   font-size:  25px;
+}
+
+h3 {
+   /* Set Color */
+   color:blue;
+   /* Set Padding Bottom */
+   padding-bottom:
+   padding-bottom: 20px;
+}
+
+#article-list article {
+   /* Set margin */
+   margin: 10px;
+   /* Set Align Text */
+   text-align: center-left;
+   /* Set Background color */
+   background-color: white;
+   /* Set Padding */
+   padding: 10px;
+   /* Set margin-bottom */
+   margin-bottom: 10px;
+}
+
+footer {
+   width: 0 auto;/* Set value here */
+   /* Set Background color */
+   bakground-color: black;
+   /* Set Color */
+   color: white;
+   /* Set Align Text */
+   text-align: justify;
+   /* Set Padding */
+   padding: 10px;
+   /* Set font Size */
+   font-size: 15px;
+   /* Set Margin Top */
+   margin-top: 5px;
+}
